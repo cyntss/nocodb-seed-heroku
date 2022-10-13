@@ -1,24 +1,18 @@
 {
-  "name": "nocodb",
+  "name": "kawainkdb",
   "description": "Create APIs at the speed of thoughts",
-  "logo": "https://nocodb.com/brand/favicon-64.png",
+  "logo": "https://cdn.shopify.com/s/files/1/0552/7529/0813/files/logo-white_67488569-d129-4e90-aeae-078608505ae4_150x@2x.png?v=1637527563",
   "keywords": [
-    "nocodb"
+    "kawainkdb"
   ],
   "success_url": "/dashboard",
-  "website": "https://nocodb.com",
-  "repository": "https://github.com/nocodb/nocodb-seed-heroku",
+  "website": "https://kawaink.com",
+  "repository": "https://github.com/cyntss/nocodb-seed-heroku",
   "formation": {
     "web": {
       "quantity": 1
     }
   },
-  "stack": "container",
-  "addons": [
-    {
-      "plan": "heroku-postgresql:hobby-dev"
-    }
-  ],
    "env": {
         "NC_ONE_CLICK": "true",
         "NODE_TLS_REJECT_UNAUTHORIZED": "0"
